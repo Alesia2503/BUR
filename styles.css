@@ -156,16 +156,18 @@ body {
   gap: 5px;
   list-style: none;
   padding: 15px 0;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 
-.nav-menu li img {
-  /* display: block; */
+
+.close {
+  /* display: block;
   padding-left: 190px;
   height: 40px;
   width: auto;
-  transition: opacity 0.3s;
-
+  transition: opacity 0.3s; */
+  display: none;
+  
 }
 
 .nav-menu a {
@@ -297,6 +299,24 @@ body {
     transition: opacity 0.3s;
 } */
   
+
+.close {
+  display: block;
+}
+.close-icon {
+  padding-left: 190px;
+  height: 40px;
+  width: auto;
+  transition: opacity 0.3s;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  padding: 15px 0 0 30px;
+  justify-content: flex-start;
+}
   .burger-menu.active .burger-icon {
       opacity: 0;
   }
