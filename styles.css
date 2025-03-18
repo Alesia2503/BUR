@@ -30,9 +30,9 @@ body {
 .top-bar {
   background: var(--dark);
   padding: 12px 0;
-  position: sticky;
+  /* position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 1000; */
 }
 
 .top-content {
@@ -146,6 +146,9 @@ body {
 .main-nav {
   background: white;
   box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .nav-menu {
