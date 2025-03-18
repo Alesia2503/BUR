@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0 45px;
 }
@@ -210,6 +210,12 @@ body {
 
 /* Mobile Styles */
 @media (max-width: 768px) {
+
+  .container {
+    max-width: 1024px;
+    padding: 0 15px;
+  }
+
   .top-content {
     justify-content: flex-start;
     gap: 15px;
@@ -242,9 +248,10 @@ body {
 
 .mobile-phone {
     display: block;
-    margin-left: auto;
-    margin-right: 50px;
+    /* margin-left: auto;
+    margin-right: 150px; */
     /* display: flex; */
+    margin: auto;
 
 }
 
@@ -282,9 +289,9 @@ body {
 
 
 @media (max-width: 480px) {
-  .mobile-phone {
+  /* .mobile-phone {
       margin-right: 40px;
-  }
+  } */
   
   .logo img {
       height: 35px;
