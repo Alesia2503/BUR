@@ -153,6 +153,7 @@ body {
   gap: 30px;
   list-style: none;
   padding: 15px 0;
+  justify-content: space-around;
 }
 
 .nav-menu a {
