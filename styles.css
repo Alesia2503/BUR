@@ -215,6 +215,10 @@ body {
       gap: 8px;
       color: var(--light);
   }
+
+  .phone a {
+      color: var(--light);
+  } 
   
   .burger-menu {
       display: block;
@@ -237,6 +241,7 @@ body {
     color: var(--light);
     font-size: 1.2rem;
     padding-right: 10px;
+    text-decoration: none;
 }
 
   .nav-menu {
