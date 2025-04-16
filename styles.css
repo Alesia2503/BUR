@@ -333,7 +333,26 @@ position: relative;
   padding: 5vw 5vw;
   background-color: #453bff;
 }
-
+.hero_4 {
+  text-align: center;
+  padding: 5vw 5vw;
+  background-color: #ffffff;
+}
+.hero_5 {
+  text-align: center;
+  padding: 5vw 5vw;
+  background-color: #271dec;
+}
+.hero_6 {
+  text-align: center;
+  padding: 5vw 5vw;
+  background-color: #00eeff;
+}
+.hero_7 {
+  text-align: center;
+  padding: 5vw 5vw;
+  background-color: #007bff;
+}
 
 
 

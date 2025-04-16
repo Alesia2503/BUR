@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const navMenu = document.querySelector('.nav-menu');
   const body = document.body;
   const closes = document.querySelector('.close-icon');
+  const navLinks = document.querySelectorAll('.links')
 
   // Burger Menu Toggle
   burger.addEventListener('click', (e) => {
@@ -22,6 +23,14 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        burger.classList.remove('active');
+        navMenu.classList.remove('active');
+        body.classList.remove('menu-open');
+        navLinks.classList.remove('active');
+    });
+});
 
   // Close Menu on Click Outside
   document.addEventListener('click', (e) => {
