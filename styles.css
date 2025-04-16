@@ -439,15 +439,16 @@ position: relative;
 
   .nav-menu a {
     color: #1A2E40;
-    font-size: 4vw;
+    font-size: 6vw;
     gap: 2vw;
 } 
  
 
 .nav-menu {
   display: flex;
-  gap: 2vw;
+  /* gap: 2vw; */
   list-style: none;
+  
   /* padding: 15px 0 20px 30px; */
   /* justify-content: flex-start; */
 }
@@ -472,6 +473,8 @@ position: relative;
 .nav-menu.active {
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  gap: 4vw;
 }
 .close {
   display: block;
