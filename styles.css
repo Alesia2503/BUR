@@ -49,7 +49,7 @@ body {
 /* Top Bar */
 .top-bar {
   background: linear-gradient(to right, #39aeff, #88f7ff, #39aeff);
-  padding: 0.7vw 0;
+  padding: 1vw 0;
 }
 
 .top-content {
@@ -160,7 +160,7 @@ body {
 
 }
 .burger-menu i {
-  font-size: 5vw;
+  font-size: 7vw;
   color: var(--dark);
   transition: opacity 0.3s ease;
   /* padding-right: 15px; */
@@ -298,7 +298,7 @@ body {
 /* Mobile Styles */
 @media (max-width: 768px) {
 .logo {
-  width: 10vw;
+  width: 15vw;
 }
   .container {
     max-width: 1024px;
@@ -309,6 +309,8 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000;
+      padding: 1.5vw 0;
+
   }
   
   .top-content {
@@ -434,7 +436,7 @@ body {
   
   .logo img {
       /* height: 35px; */
-      width: 13vw;
+      /* width: 13vw; */
   }
   
   /* .mobile-phone a {
