@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
       burger.classList.toggle('active');
       navMenu.classList.toggle('active');
       body.classList.toggle('menu-open');
+      closes.classList.toggle('active');
   });
 
   // Close Menu on Click close button
@@ -46,3 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
 //       }
 //   });
 // });
+
+// document.addEventListener('DOMContentLoaded', function () {
+//     const burgerMenu = document.querySelector('.burger-menu');
+//     const navMenu = document.querySelector('.nav-menu');
+  
+//     burgerMenu.addEventListener('click', function () {
+//       burgerMenu.classList.toggle('active');
+//       navMenu.classList.toggle('active');
+//     });
+//   });
+  
