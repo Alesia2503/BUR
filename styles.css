@@ -268,27 +268,31 @@ position: relative;
  }
 .hero h1 {
   font-family: 'Manrope', sans-serif;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
+  word-spacing: 1vw;
   font-size: 4vw;
   font-weight: 900;
   white-space: nowrap;
   color: rgb(0, 0, 0);
+  padding-bottom: 25vw;
 }
 
 .subtitle {
-  font-size: 1.2rem;
+  font-size: 4vw;
+  font-weight: bold;
   margin-bottom: 40px;
   opacity: 0.9;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
 }
 
 .cta-button {
   background: var(--accent);
   color: var(--dark);
   border: none;
-  padding: 15px 40px;
-  border-radius: 30px;
-  font-size: 1.1rem;
+  padding: 1.5vw 3vw;
+  border-radius: 2.5vw;
+  font-size: 2vw;
   cursor: pointer;
   transition: all 0.3s;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
