@@ -260,6 +260,8 @@ position: relative;
   background-size: cover;
   background-position: center center;
   filter: saturate(150%);
+  text-align: center;
+  padding-top: 2vw;
 }
  .hero_flex {
   display: flex;
@@ -277,6 +279,7 @@ position: relative;
   font-size: 1.2rem;
   margin-bottom: 40px;
   opacity: 0.9;
+  color: rgb(0, 0, 0);
 }
 
 .cta-button {
@@ -295,6 +298,31 @@ position: relative;
   transform: translateY(-3px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
+
+.hero_3 {
+  text-align: center;
+  padding: 5vw 5vw;
+  background-color: #0be9e9;
+}
+.hero_2 {
+  text-align: center;
+  padding: 5vw 5vw;
+  background-color: #0b90e9;
+}
+.hero_1 {
+  text-align: center;
+  padding: 5vw 5vw;
+  background-color: #453bff;
+}
+
+
+
+
+
+
+
+
+
 
 /* Mobile Styles */
 @media (max-width: 768px) {
