@@ -261,7 +261,7 @@ position: relative;
   background-position: center center;
   filter: saturate(150%);
   text-align: center;
-  padding-top: 2vw;
+  padding-top: 15vw;
 }
  .hero_flex {
   display: flex;
@@ -270,7 +270,7 @@ position: relative;
   font-family: 'Manrope', sans-serif;
   text-transform: uppercase;
   word-spacing: 1vw;
-  font-size: 4vw;
+  font-size: 4.5vw;
   font-weight: 900;
   white-space: nowrap;
   color: rgb(255, 253, 253);
@@ -285,13 +285,13 @@ position: relative;
   border-radius: 1vw;
 }
 .buttom {
-  padding-top: 25vw;
+  padding-top: 20vw;
 }
 .buttom_title {
   padding-top: 5vw;
 }
 .subtitle {
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   
   opacity: 0.9;
