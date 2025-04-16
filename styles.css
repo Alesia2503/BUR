@@ -273,17 +273,32 @@ position: relative;
   font-size: 4vw;
   font-weight: 900;
   white-space: nowrap;
-  color: rgb(0, 0, 0);
-  padding-bottom: 25vw;
+  color: rgb(255, 253, 253);
+  
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
 }
-
+.text-overlay {
+  display: inline-block;
+  background-color: rgba(0, 47, 255, 0.6); /* чёрная подложка с прозрачностью */
+  color: #fff;
+  padding: 0.5vw;
+  border-radius: 1vw;
+}
+.buttom {
+  padding-top: 25vw;
+}
+.buttom_title {
+  padding-top: 5vw;
+}
 .subtitle {
   font-size: 4vw;
   font-weight: bold;
-  margin-bottom: 40px;
+  
   opacity: 0.9;
   color: rgb(255, 255, 255);
   white-space: nowrap;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+  
 }
 
 .cta-button {
