@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, p {
 body {
   background: var(--light);
   color: var(--dark);
-  line-height: 1.6;
+  /* line-height: 1.6; */
 }
 
 .container {
@@ -60,10 +60,10 @@ body {
 .logo {
   width: 8vw;
 }
-.logo img {
+/* .logo img {
   width: 100%;
   height: auto;
-}
+} */
 
 .desktop-contact-info {
   display: flex;
@@ -86,15 +86,15 @@ body {
   transform: translateY(-50%);
 } */
 
-.contact-info {
+/* .contact-info {
   display: flex;
   align-items: center;
   gap: 30px;
   color: var(--dark);
   font-size: 0.9rem;
-}
+} */
 
-.contact-info > div {
+/* .contact-info > div {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -108,7 +108,7 @@ body {
 
 .contact-info a:hover {
   color: var(--accent);
-}
+} */
 
 .social-links {
   display: flex;
@@ -121,8 +121,8 @@ body {
 }
 
 .social-icon {
-  width: 32px;
-  height: 32px;
+  width: 2.5vw;
+  height: 2.5vw;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -142,10 +142,10 @@ body {
   text-decoration: none;
 }
 
-.burger-menu {
+/* .burger-menu {
   display: none;
   cursor: pointer;
-}
+} */
 /* Базовые стили для бургер-меню */
 .burger-menu {
   display: none; /* Скрыто по умолчанию */
@@ -156,8 +156,9 @@ body {
 .close {
   color: var(--dark);
   display: none;
-
-
+  transition: opacity 0.3s ease;
+font-size: 40px;
+  padding-left: 200px;
 }
 .burger-menu i {
   font-size: 7vw;
@@ -170,11 +171,10 @@ body {
   display: block;
 } */
 
-.close-icon {
+/* .close-icon {
   display: none;
-  font-size: 40px;
-  padding-left: 200px;
-}
+  
+} */
 
 /* .burger-menu img {
   height: 40px;
@@ -215,13 +215,13 @@ body {
   padding-left: 190px; */
   /* height: 40px;
   width: auto; */
-  transition: opacity 0.3s;
+  /* transition: opacity 0.3s;
   display: none;
-  color: #000;
+  color: #000; */
   
 }
 /* Скрыть бургер-меню на экранах шире 768px */
-.burger-menu .close-icon {
+/* .burger-menu .close-icon {
   display: none;
 }
 
@@ -231,7 +231,7 @@ body {
 
 .burger-menu.active .close-icon {
   display: inline;
-}
+} */
 
 
 .nav-menu a {
@@ -247,7 +247,7 @@ body {
 }
 
 .nav-menu a:hover {
-  color: black;
+  color: rgb(221, 21, 21);
 }
 
 /* Hero Section */
@@ -304,7 +304,10 @@ body {
     max-width: 1024px;
     padding: 0 15px;
   }
+.main-nav {
+  border-top: none;
 
+}
   .top-bar {
     position: sticky;
     top: 0;
